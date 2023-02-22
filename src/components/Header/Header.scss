@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Jost:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Itim', cursive;
+    font-family: 'Jost', sans-serif;
+}
+
+header {
+    max-width: 1440px;
+    width: 100%;
+}
+
+.header {
+    position: absolute;
+    margin: 0 40px;
+    display: flex;
+    gap: 200px;
+    justify-content: space-between;
+
+    &__info {
+        ul {
+            display: flex;
+            gap: 50px;
+            list-style: none;
+            li {
+                cursor: pointer;
+                color: #1D1F23B2;
+            }
+        }
+    }
+
+    &__icons {
+        cursor: pointer;
+        display: flex;
+        gap: 36px;
+    }
+}

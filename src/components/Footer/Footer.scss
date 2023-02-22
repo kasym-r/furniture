@@ -1,0 +1,21 @@
+.footer {
+    background-color: #19191B;
+    color: #FFFFFF;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+
+    div:first-child {
+        img {
+        }
+    }
+
+    &__info {
+        ul {
+            display: flex;
+            gap: 45px;
+            list-style: none;
+        }
+    }
+
+}
